@@ -1,3 +1,7 @@
+import '../styles/globals.css';
+
+
+
 
 import { useState, useEffect } from "react";
 
@@ -62,7 +66,7 @@ const V = {
   gold: "#FFD60A", lime: "#39FF14", orange: "#FF6B2B",
 };
 
-// ─── RESPONSIVE CSS ──────────────────────────────────────────────────────────
+// // ─── RESPONSIVE CSS ──────────────────────────────────────────────────────────
 const css = `
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -213,9 +217,9 @@ input[type=range]{accent-color:#6C3EFF;width:100%;height:6px;}
   .page{padding:20px 20px 48px;}
   .grid-3{grid-template-columns:repeat(3,1fr);}
   .btn-row .btn{flex:1;}
-  .nav-row{flex-direction:row;}
-}
-`;
+  .nav-row{flex-direction:row;} 
+ }
+`; //
 
 // ─── MAIN COMPONENT ──────────────────────────────────────────────────────────
 export default function App() {
