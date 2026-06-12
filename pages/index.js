@@ -222,7 +222,7 @@ input[type=range]{accent-color:#6C3EFF;width:100%;height:6px;}
 `; //
 
 // ─── MAIN COMPONENT ──────────────────────────────────────────────────────────
-export default function App() {
+export default function Home() {
   const [screen, setScreen] = useState("home");
   const [mode, setMode] = useState("practice");
   const [bgTheme, setBgTheme] = useState(BG_THEMES[0]);
